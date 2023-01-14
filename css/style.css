@@ -12,10 +12,11 @@ a {
   text-decoration: none;
 }
 .container {
-  /* margin: 0 auto; */
+  margin: 0 auto;
   width: 870px;
   background-color: #ffffff;
   padding: 30px;
+  margin-bottom: 30px;
 }
 hr {
   border: 1px solid #d1d1d1;
@@ -24,6 +25,7 @@ hr {
 main {
   display: flex;
   justify-content: center;
+  flex-direction: column;
 }
 .section-title {
   margin-bottom: 40px;
@@ -78,4 +80,18 @@ main {
 }
 .blog .blog-info .blog-author a {
   color: #562eff;
+}
+
+/* Letest Coures styles */
+.coures-item img{
+    width: 224px;
+}
+.coures-item{
+    padding: 30px 0;
+    padding-top: 0;
+}
+.reviws-duration, .coures-items{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
